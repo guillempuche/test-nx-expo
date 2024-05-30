@@ -1,9 +1,0 @@
-{
-  "name": "test-nx-expo",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/test-nx-expo/src",
-  "projectType": "application",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project test-nx-expo --web",
-  "targets": {}
-}
