@@ -8,13 +8,13 @@
   "targets": {
     "run-android": {
       "executor": "@nx/expo:run",
-      "dependsOn": [
-        "ensure-symlink",
-        "sync-deps"
-      ],
+      "dependsOn": ["ensure-symlink", "sync-deps"],
       "options": {
         "platform": "android"
       }
+    },
+    "install": {
+      "executor": "@nx/expo:install"
     }
   }
 }
