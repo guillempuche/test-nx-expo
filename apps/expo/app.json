@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xiroigeneral.testnxexpo"
     },
     "android": {
       "adaptiveIcon": {
@@ -39,6 +40,19 @@
             "10.0.2.2",
             "localhost"
           ]
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "minSdkVersion": 26,
+            "targetSdkVersion": 34
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
         }
       ]
     ],
