@@ -58,6 +58,10 @@
     },
     "sync-deps": {
       "executor": "@nx/expo:sync-deps",
+      "options": {}
+    },
+    "sync-deps-2": {
+      "executor": "@nx/expo:sync-deps",
       "options": {
         "excludeImplicit": true,
         "include": [
